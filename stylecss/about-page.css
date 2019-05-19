@@ -1,0 +1,54 @@
+body {
+    font-size: 3em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://media1.giphy.com/media/cJ4F4bymeqBO/giphy.gif)
+
+}
+header {
+    text-align: center;
+    border: 3px solid red;
+
+
+}
+
+h1 {
+    color: gold;
+}
+p {
+    color: yellow;
+}
+.box1 {
+    border: 3px solid red;
+    margin-bottom: 4px;
+    height: 402px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+.box-1 {
+    border:3px solid red;
+    height: 300px;
+    width: 300px;
+    background-image: url(https://media0.giphy.com/media/pOOwHOdeMI6jK/giphy.gif) 
+
+}
+.box-2 {
+    border:3px solid red;
+    height: 300px;
+    width: 300px;
+    background-image: url(https://media1.giphy.com/media/HI7IBfwmjsiru/giphy.gif)
+     
+
+}
+article {
+    border: 3px solid red;
+    width: 1860px;
+    height: 602px;
+    margin-left: 10px;
+}
+footer {
+    border: 3px solid red;
+    height: 402px;
+}
