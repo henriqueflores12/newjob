@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    
+
+
+}
+header {
+    background-color: gold;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 3px;
+}
+.container {
+    background-color: blue;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.container2 {
+    background-color: darkgrey;
+    border:3px solid black;
+    margin-top:3px;
+    height: 450px;
+}
+p {
+    display: grid;
+    justify-items: center;
+    margin-top: 4em;
+}
+.container3 {
+    background-repeat: no-repeat;
+    background-size: 1420px;
+    background-image: url(https://media1.tenor.com/images/49d6b5af861ae6a70a9be2b6f608453f/tenor.gif?itemid=5236669);  
+    margin-top: 3px;
+}
+
+.container3 {
+    display: grid; 
+    grid-template-areas:
+    'img'
+    'article' 
+  }
+.container4 {
+    border: 3px solid black;
+    height: 576px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.caixas {
+    background-color: darkgray;
+    margin-top: 3px;
+    border: 3px solid black;
+    height: 576px;
+    display: flex;
+    justify-content: space-around;
+}
+.container5 {
+    
+    
+    background-image: url(http://www.achieve3000.com/wp-content/uploads/2015/02/icon-request_a_demo2.svg);    
+    margin-top: 40px;      
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 3px;
+}
+.bigtext {
+    color: black;
+    font-size: 1em;
+}
+.bigtext:hover {
+    color: blue;
+}
+.button5 {
+    margin-top: 199px;
+    margin-left: 100px;
+}
+
+.container6 {
+    background-image: url(http://www.achieve3000.com/wp-content/uploads/2015/02/sales-inquiry.svg);
+    margin-top: 40px;      
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 3px;
+}
+.button6 {
+    margin-top: 199px;
+    margin-left: 110px;
+}
+.bigtext2 {
+    color: black;
+    font-size: 1em;
+}
+.bigtext2:hover {
+    color: blue;
+}
+.container7 {
+    background-image: url(http://www.achieve3000.com/wp-content/uploads/2015/02/customer-support-icon.svg);
+    margin-top: 40px;      
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 3px;
+}
+.bigtext3 {
+    color: black;
+    font-size: 1em;
+}
+.bigtext3:hover{
+    color: blue;
+}
+.button7 {
+    margin-top: 199px;
+    margin-left: 110px;
+}
+@media (min-width: 400px) {
+    .container3 {
+        display: grid; 
+        grid-template-areas:
+        'img'
+        'article' 
+      }
+
+}
