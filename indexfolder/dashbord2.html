@@ -82,13 +82,24 @@
 
     </main>
     <footer><h2>to do list</h2>
-        <ul>
-            <li><button>work time</button></li>
-            <li><button>code time</button></li>
-            <li><button>gym time</button></li>
-            <li><button>family time</button></li>
-        </ul></footer>
+        
+            <div id="myDIV" class="header">
+                <h2>My To Do List</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+              </div>
+              
+              <ul id="myUL">
+                <li>Hit the gym</li>
+                <li class="checked">Pay bills</li>
+                <li>Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+              </ul>
+        </footer>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../javascript/jQuery-TodoApp.js"></script>
     <script type="text/javascript" src="../javascript/dashboard2.js" ></script>
 
     
