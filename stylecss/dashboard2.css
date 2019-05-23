@@ -46,6 +46,12 @@ footer   {
     /* margin-top: 0%; */
     
 }
+.buttonloc{
+    background-color: gold;
+}
+.geolocationtag {
+    text-align: left;
+}
 header {
 
     grid-area: header;

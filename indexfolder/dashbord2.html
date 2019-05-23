@@ -10,13 +10,9 @@
 <body>
     
     
-    <aside><h2>to do list</h2>
-        <ul>
-            <li><button>work time</button></li>
-            <li><button>code time</button></li>
-            <li><button>gym time</button></li>
-            <li><button>family time</button></li>
-        </ul>
+    <aside><h2></h2>
+        
+                                   
     </aside>
 
     <header><h1>good morning</h1>
@@ -32,7 +28,29 @@
 
     <section class="section3"></section>
 
-    <main><!-- CALCULATOR -->
+    <main><h3><h1 class="geolocationtag">geolocation</h1>
+                <script type="text/javascript">
+                        function showPosition(){
+                            if(navigator.geolocation){
+                                navigator.geolocation.getCurrentPosition(function(position){
+                                    var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                                    document.getElementById("result").innerHTML = positionInfo;
+                                });
+                            } else{
+                                alert("Sorry, your browser does not support HTML5 geolocation.");
+                            }
+                        }
+                    </script>
+                    </head>
+                    <body>
+                        <div id="result">
+                            <!--Position information will be inserted here-->
+                        </div>
+                        <button class="buttonloc" type="button" onclick="showPosition();">Show Position</button>
+               
+         
+    </h3>
+        
         <div class="calculator">
                 <!-- CALCULATOR FORM -->
                 <form class="calculator__form">
@@ -81,8 +99,7 @@
 
 
     </main>
-    <footer><h2>to do list</h2>
-        
+    <footer>
             <div id="myDIV" class="header">
                 <h2>My To Do List</h2>
                 <input type="text" id="myInput" placeholder="Title...">
