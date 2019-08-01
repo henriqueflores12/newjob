@@ -75,5 +75,30 @@ article {
     background-color:chocolate;
 
 }
+section:hover:nth-of-type(odd) {
+    -webkit-animation: rotation 1s infinite linear;
+    }
+    
+    section:hover:nth-of-type(even) {
+    -webkit-animation: rotations 1s infinite linear;
+    }
+    
+    @-webkit-keyframes rotation {
+    from {
+    -webkit-transform: translateX(0) rotate(0deg);
+    }
+    to {
+    -webkit-transform: translatex(400px) rotate(360deg) scale(2);
+    }
+    }
+    
+    @-webkit-keyframes rotations {
+    from {
+    -webkit-transform: translateX(0) rotate(0deg);
+    }
+    to {
+    -webkit-transform: translateX(-400px) rotate(-360deg) scale(0.5);
+    }
+    }
 
 

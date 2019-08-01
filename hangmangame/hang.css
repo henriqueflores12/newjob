@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+    background-image: url(https://i.ytimg.com/vi/cYnEP_VHACE/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-image: 50%;
+    background-position: top;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 120px;
+    color:white; 
+}
+footer {
+margin-top: 640px;
+background-color: black;
+size: 300px;
+
+}
+h3:hover{
+    color:yellow;
+    
+}
+h3 {
+    text-align: left;
+}
+section {
+    text-align: center;
+}
+h2 {
+    color: yellowgreen;
+}
